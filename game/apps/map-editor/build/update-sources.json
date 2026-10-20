@@ -1,0 +1,15 @@
+{
+    "_comment": "内置默认更新源配置。用户可在 {userData}/update-sources.json 覆盖，或通过环境变量 UPDATE_SOURCES / UPDATE_URL_PRIMARY+UPDATE_URL_FALLBACK 覆盖。",
+    "sources": [
+        {
+            "name": "ghproxy (国内加速)",
+            "url": "https://ghproxy.com/https://github.com/FatPaper-1874/mine-monopoly/releases/latest/download/",
+            "enabled": true
+        },
+        {
+            "name": "GitHub (直连)",
+            "url": "https://github.com/FatPaper-1874/mine-monopoly/releases/latest/download/",
+            "enabled": true
+        }
+    ]
+}
